@@ -12,7 +12,7 @@ export class NoOkProviderError extends Error {
   public constructor() {
     super();
     this.name = this.constructor.name;
-    this.message = "No BSC provider was found on window.okexchain.";
+    this.message = "No OEC provider was found on window.okexchain.";
   }
 }
 
