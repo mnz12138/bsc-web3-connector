@@ -1,4 +1,4 @@
-interface BinanceChain {
+interface OKChain {
   send: unknown;
   enable: () => Promise<string[]>;
   on?: (method: string, listener: (...args: any[]) => void) => void;
@@ -6,7 +6,7 @@ interface BinanceChain {
 }
 
 declare interface Window {
-  BinanceChain?: BinanceChain;
+  okexchain?: OKChain;
 }
 
 declare const __DEV__: boolean;

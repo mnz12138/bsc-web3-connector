@@ -1,10 +1,10 @@
 {
-  "name": "@binance-chain/bsc-connector",
+  "name": "@ok-chain/oec-connector",
   "publishConfig": {
     "access": "public"
   },
   "version": "1.0.3",
-  "description": "A simple, maximally extensible, dependency minimized framework for building modern Bsc dApps",
+  "description": "A simple, maximally extensible, dependency minimized framework for building modern OEC dApps",
   "keywords": [
     "react",
     "hooks",
@@ -16,7 +16,7 @@
     "frontend",
     "dapp",
     "metamask",
-    "bsc"
+    "oec"
   ],
   "repository": {
     "type": "git",
